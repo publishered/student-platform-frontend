@@ -1,0 +1,39 @@
+.login {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;  
+}
+
+.inputs {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.topInputs {
+   display: flex;
+   gap: 15px;
+}
+
+.roleSelectText {
+   font-size: 14px;
+   color: #666;
+   margin-bottom: 5px;
+}
+
+.roleOptions {
+   display: grid !important;
+   grid-template-columns: 1fr 1fr;
+}
+
+.roleOption {
+   display: flex;
+   justify-content: center;
+   margin: 0 !important;
+}
+
+p.error {
+   font-weight: 600;
+   text-align: center;
+   font-size: 16px;
+}

@@ -1,0 +1,17 @@
+.login {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;  
+}
+
+.inputs {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+p.error {
+   font-weight: 600;
+   text-align: center;
+   font-size: 16px;
+}

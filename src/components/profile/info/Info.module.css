@@ -1,0 +1,17 @@
+.list {
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   gap: 5px;
+}
+
+.listItem {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+
+.listItem span {
+   color: #7866ff;
+   font-weight: 600;
+}

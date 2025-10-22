@@ -1,0 +1,32 @@
+.card {
+   border: 1px solid #6c5ce7;
+   border-radius: 8px;
+   padding: 15px;
+   margin-bottom: 15px;
+   background-color: #f9f9f9;
+}
+
+.inner {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+}
+
+.accountInfo {
+   display: flex;
+   flex-direction: column;
+   font-size: 16px;
+}
+
+.accountInfo span {
+   display: block;
+   word-break: break-word;
+   overflow-wrap: anywhere;
+}
+
+.btns {
+   margin-top: 10px;
+   display: flex;
+   gap: 10px;
+   justify-content: flex-end;
+}

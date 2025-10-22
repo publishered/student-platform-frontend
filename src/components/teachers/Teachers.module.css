@@ -1,0 +1,14 @@
+.teachers {
+   padding: 50px 0px;
+}
+
+.title {
+   font-size: 34px;
+   margin-bottom: 20px;
+}
+
+.list {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+   gap: 20px;
+}

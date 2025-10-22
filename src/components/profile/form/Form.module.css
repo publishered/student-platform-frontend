@@ -1,0 +1,12 @@
+.inputs {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: flex-start;
+}

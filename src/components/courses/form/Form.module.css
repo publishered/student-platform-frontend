@@ -1,0 +1,22 @@
+.formContainer {
+   padding: 50px 0px;
+}
+
+.title {
+   font-size: 34px;
+   margin-bottom: 20px;
+}
+
+.inputs {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 25px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   max-width: 600px;
+   width: 100%;
+}

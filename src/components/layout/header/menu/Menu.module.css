@@ -1,0 +1,27 @@
+.list {
+   display: flex;
+   list-style: none;
+   gap: 20px;
+}
+
+.link {
+   display: block;
+   padding: 2px 5px;
+   position: relative;
+}
+
+.link::after {
+   content: '';
+   display: block;
+   height: 2px;
+   position: absolute;
+   bottom: 0;
+   left: 5px;
+   width: 0%;
+   background-color: #fff;
+   transition: .2s;
+}
+
+.link:hover::after {
+   width: calc(100% - 10px);
+}

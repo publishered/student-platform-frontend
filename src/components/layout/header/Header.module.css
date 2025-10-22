@@ -1,0 +1,28 @@
+.header {
+   padding: 10px 20px;
+   background-color: #7866ff;
+   color: #fff;
+}
+
+.inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 25px;
+}
+
+.account {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.accountInfo {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.accountEmail {
+   font-size: 14px;
+}
